@@ -10,7 +10,7 @@ Before run this sample, you must edit the properties files that informs some con
 
 **/src/resources/properties/application.properties**
 
-* **rest.client.host=YOUR\_SENTILO\_PLATFORM\_CLIENT\_ADDRESS** : put here your Sentilo instance host ip address
+* **rest.client.host=YOUR\_SENTILO\_PLATFORM\_CLIENT\_ADDRESS** : put here your Sentilo instance host ip address (needs the protocol and the port). Ex: http://localhost:8081
 * **rest.client.identityKey=YOUR\_IDENTITY\_KEY** : put here your credential identity key
 
 If you would change the sensor and component names, for example, you can do it in this same file.
