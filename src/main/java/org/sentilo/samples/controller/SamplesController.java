@@ -42,7 +42,7 @@ import java.util.Properties;
 
 import javax.annotation.Resource;
 
-import org.codehaus.jackson.map.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.sentilo.common.domain.AuthorizedProvider;
 import org.sentilo.common.domain.CatalogComponent;
 import org.sentilo.common.domain.CatalogSensor;
