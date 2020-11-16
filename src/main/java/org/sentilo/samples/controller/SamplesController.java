@@ -171,7 +171,6 @@ public class SamplesController {
     CatalogInputMessage getSensorsInputMsg = new CatalogInputMessage();
     getSensorsInputMsg.setProviderId(providerId);
     getSensorsInputMsg.setIdentityToken(identityToken);
-    getSensorsInputMsg.setComponents(createComponentsList(componentId));
     getSensorsInputMsg.setSensors(createSensorsList(providerId, componentId, sensorsIdList));
 
     // Obtain the sensors list from provider within a CatalogOutputMessage response object type
@@ -199,7 +198,6 @@ public class SamplesController {
       // Create a CatalogInputMessage object for retrieve server data
       CatalogInputMessage registerSensorsInputMsg = new CatalogInputMessage(providerId);
       registerSensorsInputMsg.setIdentityToken(identityToken);
-      registerSensorsInputMsg.setComponents(createComponentsList(componentId));
       registerSensorsInputMsg.setSensors(createSensorsList(providerId, componentId, sensorsIdList));
 
       // Register the new sensor in the server
